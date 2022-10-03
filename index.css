@@ -14,6 +14,7 @@ button{
     border-radius: 4px;
     border: none;
     padding: 8px 32px;
+    cursor: pointer;
 }
 
 .header{
@@ -21,7 +22,7 @@ button{
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 64px;
+    padding: 16px 100px;
     margin-bottom: 0px;
 }
 
@@ -45,22 +46,33 @@ button{
     margin: 0;
 }
 
+.body-left {
+    padding-right: 64px;
+}
+
 .body-one{
     margin-top: 0px;
-    padding: 16px 64px;
+    padding: 16px 100px;
     background-color: #1F2937;
     color: #F9FAF8;
     height: min-content;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .body-left > h1{
     font-size: 48px;
     font-weight: 800;
     margin: 0;
+    line-height: 0.9;
 }
 
+.body-left > p{
+    margin: 10px 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 
 .body-right{
@@ -71,4 +83,86 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.body-two > .bold{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.boxlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    gap:50px;
+    
+}
+
+.body-two-box{
+    width:min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.blankdiv{
+    border:2px solid #3882F6;
+    width:7em;
+    height:7em;
+    border-radius: 8px;
+}
+
+.body-three{
+    background-color: #E5E7EB;
+    padding: 32px 120px;
+}
+
+.body-three >p{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.body-three > .bold{
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.footer{
+    padding: 64px 100px;
+}
+
+.footer-box{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    border-radius: 8px;
+    padding: 32px 64px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-left > p{
+    margin:0px 5px;
+}
+
+.footer-box > button{
+    border: 2px solid #F9FAF8;
+    width: fit-content;
+    height: fit-content;
+}
+
+.copyright{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 32px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
